@@ -63,4 +63,3 @@ async def subscribers_cmd(message: Message):
     for uid in subscribers:
         text += f"{uid}\n"
     await message.answer(text)
-
